@@ -1,5 +1,6 @@
 import Constants from "expo-constants";
 import { initializeApp } from "firebase/app";
+import { getAuth, signInAnonymously } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const {
